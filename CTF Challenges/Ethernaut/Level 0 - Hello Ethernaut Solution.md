@@ -63,7 +63,7 @@ await contract.info42();
 //Output: 'theMethodName is the name of the next method.'
 ```
 
-<h3>Step 6)</h3> Proceed with the next function call by using the number ```42``` from the previous command's result.<br>
+<h3>Step 6)</h3> Proceed with the next function call by using the number "42" from the previous command's result.<br>
 
 Call ```theMethodName()```:
 
@@ -73,7 +73,7 @@ await contract.theMethodName();
 //Output: 'The method name is method7123949.'
 ```
 
-<h3>Step 7)</h3> Proceed with the next function call by using the method name ```method7123949``` from the previous command's result.<br>
+<h3>Step 7)</h3> Proceed with the next function call by using the method name "method7123949" from the previous command's result.<br>
 
 Call ```method7123949()```:
 
@@ -83,7 +83,7 @@ await contract.method7123949();
 //Output: 'If you know the password, submit it to authenticate().'
 ```
 
-<h3>Step 8)</h3> After the previous function call, we now know that we need a password to pass to the ```authenticate()``` function.<br>
+<h3>Step 8)</h3> After the previous function call, we now know that we need a password to pass to the "authenticate()" function.<br>
 We can peform a couple of commands to investigate further.<br>
 
 Option 1: ```contract```:
@@ -128,7 +128,7 @@ await contract.password();
 //Output: ethernaut0
 ```
 
-<h3>Step 9)</h3> Now that we have the password, we pass it to the ```authenticate()``` function.<br>
+<h3>Step 9)</h3> Now that we have the password, we pass it to the "authenticate()" function.<br>
 
 Call ```authenticate()``` with the parameter ```"ethernaut0"```:
 

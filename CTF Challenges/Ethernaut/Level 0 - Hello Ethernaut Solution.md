@@ -63,7 +63,7 @@ await contract.info42();
 //Output: 'theMethodName is the name of the next method.'
 ```
 
-<h3>Step 6)</h3> Proceed with the next function call by using the number "42" from the previous command's result.<br>
+<h3>Step 6)</h3> We now call the function "theMethodName()"<br>
 
 Call ```theMethodName()```:
 
